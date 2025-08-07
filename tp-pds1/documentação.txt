@@ -1,0 +1,4 @@
+COMO COMPILAR: usei um terminal bash com o seguinte comando: gcc -o spaceinvaders.exe spaceinvaders.c -lallegro -lallegro_primitives -lallegro_font -lallegro_ttf -lallegro_image -lallegro_audio -lallegro_acodec 
+Esse comando esta presente na parte superior do meu código como comentário, portanto fica mais fácil de compilar
+
+Meu compilador gcc nunca encontrava o allegro para compilar no Windows, achei mais fácil alterar o meu terminal do vscode para um bash e compilar com o comando acima.
